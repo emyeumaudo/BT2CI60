@@ -1,0 +1,14 @@
+Tìm hiểu về WebComponent
+*Khái niệm :
+Web component là tập hợp các Web APIs cho phép chúng ta tạo ra một thẻ HTML riêng, mang các đặc tính riêng, đóng gói, có thể tái sử dụng.
+
+*Tại sao cần dùng :
+Công nghệ web đã và đang phát triển mạnh mẽ, độ phức tạp do vậy ngày càng tăng cao. Điều này đem lại không ít đau đầu cho các nhà phát triển web, khi số lượng thành phần trong một trang web ngày càng phình to và yêu cầu thì ngày một cao.
+Vì vậy việc sử dụng WebComponent là càn thiết dể các mã code HTML rất phức tạp và gây khó khăn trong việc mở rộng cũng như bảo trì, được trở nên đơn giản hơn.
+
+*Công nghệ được sử dụng trong WebComponent :
+Về cơ bản web components sử dụng 3 công nghệ
+
+Custom Elements: là tập hợp các API của Javascript để cho phép tạo ra các thành phần web tuỳ chỉnh
+Shadow DOM: là tập hợp các API của Javascript để gắn một cây DOM “shadow” vào một thành phần của DOM, cây DOM này được quản lý riêng biệt và render riêng với cây DOM chính, do vậy nó có thể được đóng gói lại để sử dụng cho các ứng dụng khác nhau.
+HTML templates: Dùng để tạo ra các template từ đó được render ra trang web.
